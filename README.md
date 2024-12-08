@@ -1,6 +1,8 @@
-# MASSA
+# TEAM 1 - Massa Belal, Jakub Rusek, Ashutosh Chalise
 
 # Cybersecurity in Healthcare Systems
+
+# Massa
 
 ## What are Cyber Threats?
 Cyber threats are malicious acts intended to:
