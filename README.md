@@ -80,44 +80,51 @@ Healthcare systems increasingly rely on digital platforms for:
 ## Best Practices for Prevention
 
 ### Access Controls
-- Use multi-factor authentication (MFA) and role-based access.
+- Use multi-factor authentication (MFA) and role-based access to ensure only authorized personnel can access sensitive healthcare data, preventing breaches.
 
 ### Employee Training
-- Regular training on phishing, social engineering, and secure data handling.
+- Conduct regular training on phishing, social engineering, and secure data handling to reduce human errors and mitigate cyber threats.
 
 ### Network Security
-- Implement firewalls, intrusion detection systems, and network segmentation.
+- Conduct regular training on phishing, social engineering, and secure data handling to reduce human errors and mitigate cyber threats.
 
 ### Endpoint Protection
-- Secure devices with antivirus, regular updates, and monitoring.
+- Secure all devices, including IoT medical devices, with antivirus software, monitoring, and regular updates to prevent malware attacks.
 
 ### Data Encryption
-- Encrypt sensitive data in transit and at rest.
+- Encrypt sensitive data in transit and at rest to protect it from unauthorized access, even during a breach.
+
 
 ---
 
 ## Recovery Plans
 
 1. **Incident Response Plan (IRP)**
-   - Define roles and steps for containment, investigation, and threat removal.
+   - Create a detailed plan outlining roles, steps for containment, investigation, threat removal, and protocols for notifying affected parties and authorities during a breach.
+
 2. **Data Backups and Testing**
-   - Routine backups with off-site or cloud-based solutions.
+   - Perform routine backups and test recovery processes to ensure data integrity. Use off-site or cloud-based solutions to guard against ransomware attacks.
+
 3. **Disaster Recovery**
-   - Prioritize critical systems and outline restoration steps.
+   - Develop a plan prioritizing key systems for patient care, detailing steps for system restoration, data verification, and returning to normal operations.
+
 4. **Cybersecurity Insurance**
-   - Cover financial losses from data breaches and cyber incidents.
+   - Obtain insurance to cover financial losses from data breaches, ransomware, and other cyber incidents, especially given hospitals' vulnerability.
+
 5. **External Collaboration**
-   - Partner with experts and law enforcement for enhanced response.
+   -  Partner with cybersecurity experts, vendors, and law enforcement to enhance response efforts and access additional resources during incidents.
+
 
 ---
 
 ## Case Studies
 
-### 1. **WannaCry Attack (2017)**
-- UK’s NHS faced a ransomware attack that delayed surgeries and patient care due to outdated software.
+### 1. **WannaCry Attack **
+- In 2017, the National Health Service (NHS) in the UK experienced a devastating ransomware attack that disrupted patient care and delayed surgeries. This case study highlights the importance of timely updates, as the malware exploited outdated software vulnerabilities.
 
-### 2. **Hollywood Presbyterian Medical Center (2016)**
-- Paid a ransom to regain system access. This highlights the need for robust data backup practices.
+### 2. **Hollywood Presbyterian Medical Center **
+- In 2016, this Los Angeles hospital paid a ransom to regain access to its systems after a ransomware attack. The case demonstrates the critical need for data backups, which would have enabled the hospital to recover without paying the ransom.
+
 
 ---
 
@@ -157,7 +164,8 @@ Healthcare systems increasingly rely on digital platforms for:
   - **Insulin Pumps**: Hackers can remotely alter insulin doses, endangering patients.
   - **MRI Machines**: Vulnerabilities allow attackers to tamper with diagnostic images.
   - **Infusion Pumps**: Unauthorized users could change medication dosages.
-  - **WannaCry Attack (2017)**: Infected IoT-enabled devices in the UK’s NHS, delaying surgeries and disrupting care.
+  - **Pacemakers**: Can be hacked to change heart rhythms
+  - **Nurse Call Systems**: They have unpatched vulnerabilities which might work as port of entry for hackers.
 
 ### Prevention Strategies
 1. **Secure Access Protocols**: Implement multi-factor authentication (MFA) and restrict access to authorized personnel.
@@ -173,7 +181,6 @@ Healthcare systems increasingly rely on digital platforms for:
 - Lack of built-in antivirus and inconsistent patch management.
 - Breaches of electronic protected health information (ePHI).
 
-### Challenges
 - **Endpoint Vulnerabilities**: Many medical devices lack antivirus or built-in security tools.
 - **Inconsistent Patch Management**: Hospitals often delay software updates, increasing exposure.
 - **ePHI Breaches**: Loss of electronic protected health information can lead to HIPAA violations and loss of patient trust.
